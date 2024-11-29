@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+main{
+    min-height: 71vh;
+    padding-bottom: 4vh;
+    width: 100%;
+}
+
+
+.light{
+    --color-font-index: #fff;
+    --color-bg-table: #63a3b6;
+    --color-bg-table-primary: #fff;
+    --color-bg-table-secondary: #f2f2f2;
+}
+
+.dark{
+    --color-font-index: #242a38;
+    --color-bg-table: #62b269;
+    --color-bg-table-primary: #4e596f;
+    --color-bg-table-secondary: #6c757d;
+}
+
+
+.docsTitle{
+    padding-top: 15vh;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto;
+    color: var(--color-font-dark)
+}
+
+.document-container{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #15262e85;
+    background-color: var(--color-bg-table-primary);
+    overflow: hidden;
+    width: 80vw;
+}
+thead{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    box-shadow: 0 2px 10px #15262e4d;
+    margin-bottom: 5vh;
+    color:var(--color-font-index);
+    background-color: var(--color-bg-table);
+}
+
+.botaoView{
+    transition: 1s;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: var(--color-font-secondary);
+    background-color: rgba(255, 255, 255, 0);
+    width: 50%;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 700px) {
+    th{
+        padding: 2vh 2.5vw;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+    }
+    
+    td{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: var(--color-font-secondary);
+        padding: 0.5rem  0.9em;
+    }
+}
+
+@media (min-width: 701px){
+    th{
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+    }
+
+    td{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: var(--color-font-secondary);
+        padding: 1rem 2rem;
+    }
+}
+@media (max-width: 550px) {
+    th{
+        padding: 2vh 1.5vw;
+        letter-spacing: 0.1rem;
+    }
+    
+    td{
+        padding: 2vh  1.5vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .botaoView{
+        font-size: 1rem;
+    }
+    table{
+        width: 90vw;
+    }
+    th{
+        padding: 2vh 0.9vw;
+        letter-spacing: 0.1rem;
+        font-size: 0.8em;
+    }
+    
+    td{
+        font-size: 0.8em;
+        padding: 1.3vh  1vw;
+    }
+}
+
+tr:nth-child(even){
+    background-color: var(--color-bg-table-secondary);
+}
+
+.botaoView:hover{
+    color: var(--color-font-primary);
+}

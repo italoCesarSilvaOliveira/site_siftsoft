@@ -3,15 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Folhas de Estilo -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/capa.css">
+  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="css/sobre.css">
+  <link rel="stylesheet" href="css/produto.css">
+  <link rel="stylesheet" href="css/contato.css">
+
+  <!-- Scripts -->
+   <script src="js/NavBar.js"></script>
+
   <title>SIFSoft - Empresa Júnior</title>
 </head>
 <body>
+  <div class="container" id="main">
+    <!-- Navigation Bar 
+     
+    NÃO ESTÁ FICANDO ATIVO E ESTÁ DESCENDO MUITO RÁPIDO
+
+    -->
     <header>
-        
+      <div class="container_logo_navBar">
+        <a href="/#main"><img class="logo" src="images/logo.svg" alt="Logo SIFSoft"></a>
+      </div>
+      
+      <div class="container_options_navBar">
+        <ul class="menu">
+          <li class="item_menu"><a class="link_menu" href="/#inicio">Início</a></li>
+          <li class="item_menu"><a class="link_menu" href="/#sobre">Sobre</a></li>
+          <li class="item_menu"><a class="link_menu" href="/#produtos">Produtos</a></li>
+          <li class="item_menu"><a class="link_menu" href="/#contatos">Contatos</a></li>
+          <li class="item_menu"><a class="link_menu" href="http://blog.sifsoft.com.br/">Blog</a></li>
+        </ul>
+      </div>
     </header>
 
-    <section id="inicio">
+    <section id="capa">
+      <div class="background_capa">
+        <img class="img_capa " src="images/logo.svg" alt="Logo SIFSoft">
+      </div>
 
+      <div class="main_capa">
+          <p class="title_1_capa">Não Fique Para Trás</p>
+          <p class="title_2_capa">Supere a Concorrência!</p>
+
+          <a href="#" class="btn_capa">
+            COMECE AGORA
+          </a>
+
+          <div class="down_arrow hu__hu__">
+            <img src="images/arrows_down.svg" alt="Seta para baixo">
+          </div>
+      </div>
+
+    </section>
+
+    <section id="inicio"> 
+   
     </section>
 
     <section id="sobre">
@@ -22,9 +78,10 @@
 
     </section>
 
-  <section id="contatos">
+    <section id="contatos">
 
-  </section>
+    </section>
+  </div>
   
 </body>
 </html>

@@ -1,11 +1,39 @@
 :root {
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --font-size: 16px;
+  --primary-color: #EFF3FF;
+  --primary-color-transparent: #eff3ff8e;
+  --secondary-color: #5380E0;
+  --terciary-color: #243761;
+  --quaternary-color: #fff;
+  --Quintenary-color: #FFAC0C;
+  --shadow-color: #444444;
+
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box; 
 }
 
 body {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
-  font-size: var(--font-size);
+  margin: 0; 
+  padding: 0; 
+}
+
+.container {
+  width: 100vw; 
+  height: 100vh; 
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ____________________________________________________________________ */
+
+.teste {
+  width: 80%;
+  height: 30%;
+  background-color: #444444;
+  
 }

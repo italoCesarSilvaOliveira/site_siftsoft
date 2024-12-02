@@ -1,0 +1,72 @@
+header {
+  width: 100%; 
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  background-color: var(--primary-color-transparent);
+  backdrop-filter: blur(20px); /* Efeito de desfoque */
+  -webkit-backdrop-filter: blur(20px); /* Suporte para Safari */
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.container_logo_navBar {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1%;
+  cursor: pointer;
+}
+
+.container_options_navBar {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5%;
+}
+
+.logo {
+  width: 100%; 
+
+}
+
+.menu {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  align-items: center;
+}
+
+.item_menu {
+  padding: 0 2%; 
+  margin: 0 1%; 
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link_menu {
+  color: var(--terciary-color);
+  font-family: var(--font-family);
+}
+
+.link_menu:hover {
+  border-bottom: solid 2px var(--secondary-color);
+}
+
+/* Ainda não funciona */
+.link_menu.active { 
+  color: var(--secondary-color); 
+  border-bottom: solid 2px var(--secondary-color); 
+}

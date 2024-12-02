@@ -1,0 +1,78 @@
+#capa {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  margin-top: 3%;
+}
+
+.background_capa {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  position: relative;
+}
+
+.img_capa {
+  width: 100%;
+  opacity: 0.03;
+}
+
+.main_capa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: var(--terciary-color);
+  font-family: var(--font-family);
+}
+
+.title_1_capa, .title_2_capa {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+.title_2_capa {
+  text-transform: uppercase;
+  font-size: 350%;
+  text-decoration: underline var(--Quintenary-color);
+}
+
+.btn_capa {
+  width: 17%;
+  padding: 0.5% 0%;
+  margin-top: 3%;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  font-size: 120%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 4px var(--shadow-color);
+}
+
+.down_arrow {
+  margin-top: 40%;
+  opacity: 0.7;
+  z-index: 2;
+  position: absolute;
+}
+
+/* ----------- ANIMAÇÃO ------------- */
+
+.hu__hu__ { animation: hu__hu__ infinite 3.5s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}

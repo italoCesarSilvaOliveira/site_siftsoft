@@ -1,4 +1,89 @@
 #contatos {
   width: 100%;
-
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.card_contatos {
+  width: 60%;
+  border-radius: 20px;
+  padding: 1%;
+  background-color: aqua;
+  box-shadow: 1px 2px 4px var(--shadow-color);
+  border: solid 1px #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+.container_title_card_contatos{
+  width: 100%;
+  align-items: self-start;
+}
+
+.title_card_contatos {
+  background-color: chartreuse;
+  color: var(--terciary-color);
+  font-size: 200%;
+  padding: 0;
+  margin: 0;
+}
+
+.line_contatos {
+  background-color: var(--terciary-color);
+  border-radius: 20px;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  padding: 0.3% 0%;
+}
+
+.content_card_contatos {
+  background-color: burlywood;
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_options_contatos {
+  background-color: #d8d8d8;
+  width: 50%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_text_options_contatos {
+  background-color: cadetblue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 2%;
+}
+
+.icons_contatos {
+  width: 6%;
+  margin-right: 2%;
+}
+
+.text_contatos {
+  color: var(--terciary-color);
+  font-size: 120%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.container_map_contatos {
+  width: 50%;
+}
+

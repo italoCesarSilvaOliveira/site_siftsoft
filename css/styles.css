@@ -6,6 +6,9 @@
   --quaternary-color: #fff;
   --Quintenary-color: #FFAC0C;
   --shadow-color: #444444;
+  --shadow-card-color: #33333373;
+
+  --subtitle-color: #405FA1;
 
   --font-family: "Poppins", sans-serif;
 }
@@ -21,8 +24,8 @@ body {
 }
 
 .container {
-  width: 100vw; 
-  height: 100vh; 
+  width: 100%; 
+  height: 100%; 
 }
 
 a {
@@ -31,9 +34,3 @@ a {
 
 /* ____________________________________________________________________ */
 
-.teste {
-  width: 80%;
-  height: 30%;
-  background-color: #444444;
-  
-}

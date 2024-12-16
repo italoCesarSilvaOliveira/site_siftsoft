@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   font-family: var(--font-family);
+  margin: 2%;
 }
 
 .title_sobre {
@@ -164,6 +165,7 @@
 .container_how_we_work_sobre {
   width: 70%;
   margin-top: 5%;
+  margin-bottom: 1%;
   display: flex;
   justify-content: center;
   align-items: center;

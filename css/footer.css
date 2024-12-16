@@ -1,0 +1,142 @@
+footer{
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--terciary-color);
+  font-family: var(--font-family);
+  color: var(--quaternary-color);
+}
+
+.main_footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding: 1.5%;
+  border-bottom: solid 2px var(--quaternary-color);
+}
+
+.container_logo_footer {
+  /* background-color: aquamarine; */
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_sifsoft_footer {
+  width: 100%;
+}
+
+.menu_footer {
+  width: 15%;
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_title_footer {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin: 3%;
+}
+
+.link_menu_footer {
+  text-decoration: none;
+  color: var(--quaternary-color);
+  font-size: 0.8rem;
+  margin: 1%;
+  font-weight: 300;
+}
+
+.link_menu_footer:hover {
+  color: var(--secondary-color);
+}
+
+.footer_contato {
+  width: 18%;
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+}
+
+.contente_contato {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.content_info_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.icon_info {
+  margin-right: 2%;
+  width: 8%;
+}
+
+.text_info {
+  padding: 0%;
+  margin: 3% 0%;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.text_icon_contato_footer {
+  padding: 0%;
+  margin: 0% 3% 0% 0%;
+  font-weight: bold;
+  font-size: 0.8rem;
+
+}
+
+.container_button_psi {
+  width: 17%;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+}
+
+.button_psi {
+  width: 100%;
+  color: var(--quaternary-color);
+  background-color: var(--subtitle-color);
+  padding: 2%;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  box-shadow: 0.5px 1px 2px var(--quaternary-color);
+}
+
+.button_psi:hover{
+  background-color: var(--secondary-color);
+}
+
+.copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_copy {
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 0%;
+
+}

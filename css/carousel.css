@@ -25,7 +25,7 @@ body {
   font-size: 1.8rem;
   font-weight: 800;
   padding: 0%;
-  margin: 2.5% 0%;
+  margin: 4% 0%;
 }
 
 /* Gradiente reutilizável */
@@ -92,7 +92,7 @@ body {
 
 .container_button_carousel {
   width: 80%;
-  margin-top: 2%;
+  margin-top: 4%;
   background-color: var(--quaternary-color);
   display: flex;
   flex-direction: row;

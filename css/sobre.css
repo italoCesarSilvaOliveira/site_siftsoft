@@ -1,4 +1,226 @@
 #sobre {
   width: 100%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+/*----------------- Title Section -------------------------- */
+
+.container_title_sobre {
+  width: 40%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+.title_sobre {
+  font-size: 250%;
+  color: var(--terciary-color);
+  margin: 0%;
+}
+
+.container_subtitle_sobre {
+  width: 95%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.rocket {
+  width: 20%;
+  margin-right: 5%;
+}
+
+.subtitle_sobre {
+  color: var(--subtitle-color);
+  font-size: 125%;
+  font-weight: 600;
+}
+
+/*----------------- Card Long -------------------------- */
+
+.container_card_long_sobre {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_crad_sobre {
+  background-color: var(--quaternary-color);
+  width: 100%;
+  font-family: var(--font-family);
+  color: var(--terciary-color);
+  border-radius: 15px;
+  box-shadow: 0.5px 1px 2px var(--shadow-card-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_title_sobre {
+  font-weight: bold;
+  font-size: 180%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.content_text_card_sobre {
+  margin: 0% 4%;
+}
+
+.line_sobre {
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  width: 18%;
+  padding: 0.4%;
+  margin-top: -0.4%;
+  margin-bottom: 5%;
+}
+
+.text_card_sobre {
+  margin: 0%;
+  padding: 0%;
+  text-align: justify;
+  font-size: 100%;
+}
+
+.img_card_sobre {
+  width: 50%;
+  border-radius: 0px 15px 15px 0px;
+  filter: brightness(90%);
+
+}
+
+
+/*----------------- Card Short -------------------------- */
+
+.container_card_short_sobre {
+  width: 80%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_short_sobre {
+  background-color: var(--quaternary-color);
+  width: 31.5%;
+  border-radius: 10px;
+  box-shadow: 0.5px 1px 2px var(--shadow-card-color);
+  padding: 3%;
+  color: var(--terciary-color);
+  font-family: var(--font-family);
+}
+
+.title_card_short_sobre {
+  padding: 0;
+  margin: 0;
+  font-size: 150%;
+}
+
+.line_card_short_sobre {
+  width: 20%;
+  background-color: var(--secondary-color);
+  padding: 0.6%;
+  border-radius: 30px;
+}
+
+.text_card_short_sobre {
+  font-size: 100%;
+  text-align: justify;
+  margin-top: 2%;
+}
+
+/*----------------- Button Action Card -------------------------- */
+
+.btn_card_sobre {
+  width: 25%;
+  padding: 0.5% 0%;
+  margin-top: 2%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 4px var(--shadow-color);
+}
+
+/*----------------- section How Works -------------------------- */
+
+.container_how_we_work_sobre {
+  width: 70%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left_how_we_work_sobre {
+  width: 40%;
+}
+
+.img_how_we_work_sobre {
+  width: 100%;
+}
+
+.right_how_we_work_sobre {
+  width: 60%;
+  padding: 7%;
+}
+
+.title_how_we_work_sobre {
+  font-family: var(--font-family);
+  font-weight: bold;
+  color: var(--terciary-color);
+  font-size: 2.5rem;
+  padding: 0%;
+  margin: 0%;
+}
+
+.text_how_we_work_sobre {
+  font-family: var(--font-family);
+  color: var(--terciary-color);
+  font-size: 1.1rem;
+  padding: 4% 0%;
+  margin: 0%;
+  text-align: justify;
+}
+
+.container_button_how_we_work_sobre {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_how_we_work_sobre {
+  width: 63%;
+  padding: 1.3% 0%;
+  border-radius: 8px;
+  margin-top: 0.8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  font-family: var(--font-family);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 4px var(--shadow-color);
 }

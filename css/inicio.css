@@ -1,3 +1,48 @@
 #inicio {
   width: 100%;
 }
+
+.container_inicio {
+  display: flex;
+  align-items: center;
+}
+
+.content_inicio {
+  background-color: var(--quaternary-color);
+  width: 100%;
+  font-family: var(--font-family);
+  color: var(--terciary-color);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  height: 80vh;
+}
+
+.content_inicio .texts_inicio {
+  width: 30%;
+  margin: 0 10% 0;
+}
+
+.content_inicio .texts_inicio .title_inicio {
+  font-size: 400%;
+  color: var(--terciary-color);
+  margin: 0;
+}
+
+.content_inicio .texts_inicio .content_inicio {
+  margin: 0%;
+  padding: 0%;
+  text-align: justify;
+  font-size: 100%;
+}
+
+.content_inicio .texts_inicio .content_inicio_text{
+  font-size: 25px;
+}
+
+.content_inicio .image_inicio img {
+  width: 39em;
+}

@@ -4,9 +4,10 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between; 
-  background-color: var(--primary-color-transparent);
-  backdrop-filter: blur(20px); /* Efeito de desfoque */
-  -webkit-backdrop-filter: blur(20px); /* Suporte para Safari */
+  background-color: var(--primary-color);
+  /* background-color: var(--primary-color-transparent); */
+  /* backdrop-filter: blur(20px); Efeito de desfoque */
+  /* -webkit-backdrop-filter: blur(20px); Suporte para Safari */
   margin: 0;
   position: fixed;
   top: 0;

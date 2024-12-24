@@ -1,48 +1,169 @@
 #inicio {
   width: 100%;
-}
-
-.container_inicio {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .content_inicio {
-  background-color: var(--quaternary-color);
-  width: 100%;
-  font-family: var(--font-family);
-  color: var(--terciary-color);
-  border-radius: 15px;
+  width: 80%;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  gap: 30px;
-  height: 80vh;
-}
-
-.content_inicio .texts_inicio {
-  width: 30%;
-  margin: 0 10% 0;
-}
-
-.content_inicio .texts_inicio .title_inicio {
-  font-size: 400%;
+  font-family: var(--font-family);
   color: var(--terciary-color);
-  margin: 0;
+  /* background-color: blue; */
 }
 
-.content_inicio .texts_inicio .content_inicio {
+.texts_inicio {
+  /* background-color: aqua; */
+  width: 40%;
+  padding-right: 2%;
+  text-align: left;
+}
+
+.title_inicio {
+  /* background-color: blueviolet; */
+  font-size: 2rem;
   margin: 0%;
   padding: 0%;
+  width: 97%;
+  text-align: center;
+}
+
+mark {
+  color: var(--subtitle-color);
+  background-color: var(--primary-color);
+  font-size: 2.4rem;
+}
+
+.content_inicio_text {
+  width: 97%;
+  font-size: 1.1rem;
+  margin-bottom: 6%;
   text-align: justify;
-  font-size: 100%;
 }
 
-.content_inicio .texts_inicio .content_inicio_text{
-  font-size: 25px;
+.button_content {
+  width: 97%;
+  padding: 0.7% 0%;
+  margin-top: 2%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  font-family: var(--font-family);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 4px var(--shadow-color);
 }
 
-.content_inicio .image_inicio img {
-  width: 39em;
+.image_inicio {
+  width: 40%;
+}
+
+/*----------------- Section Cards Short ------------------------*/
+
+.container_podemos_ajudar_inicio {
+  /* background-color: aqua; */
+  width: 90%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_podemos_ajudar_inicio {
+  font-family: var(--font-family);
+  color: var(--terciary-color);
+  font-size: 1.7rem;
+  padding: 0%;
+  margin: 1.4%;
+}
+
+.container_card__podemos_ajudar_inicio {
+  /* background-color: black; */
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_inicio {
+  background-color: var(--quaternary-color);
+  width: 32.6%;
+  padding: 2%;
+  margin-bottom: 1%;
+  border-radius: 8px;
+  box-shadow: 0.5px 1px 2px var(--shadow-card-color);
+  border: solid 1px var(--border-card-color);
+  font-family: var(--font-family);
+}
+
+.icon_card {
+  width: 14%;
+}
+
+.title_card {
+  margin: 3% 0%;
+  padding: 0%;
+  color: var(--terciary-color);
+  font-size: 1.1rem;
+}
+
+.text_card {
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  color: var(--terciary-color);
+}
+
+/*----------------- Section Cards Long ------------------------*/
+
+.card_long_inicio {
+  width: 49.5%;
+}
+
+.icon_card_long {
+  width: 9%;
+}
+
+.title_card_long {
+  margin: 0%;
+  padding: 0%;
+  color: var(--terciary-color);
+  font-size: 1.1rem;
+}
+
+.text_card_long {
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  color: var(--terciary-color);
+}
+
+/*----------------- Section Cards Button ------------------------*/
+
+.btn_card_inicio {
+  width: 25%;
+  padding: 0.5% 0%;
+  margin-top: 1%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 4px var(--shadow-color);
 }

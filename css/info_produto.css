@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0; 
+  padding: 0; 
+}
+
+#main_info_produto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+/*-------------- BTN VOltar ----------------*/
+
+.votar_info_produto {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: var(--quaternary-color);
+  border-radius: 1rem;
+  width: 7%;
+  padding: 0.5%;
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(--terciary-color);
+  box-shadow: 1px 2px 4px var(--shadow-color);
+  border: 1px solid #405fa171;
+}
+
+.img_voltar_info_produto {
+  width: 25%;
+  margin-right: 2%;
+}
+
+/*---------- Capa produto ------------------*/
+
+.capa_info_produto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  margin-bottom: 4%;
+}
+
+.logo_info_produto {
+  width: 28%;
+}
+
+/*------------- Card ----------*/
+
+.card_info_produto {
+  background-color: var(--quaternary-color);
+  width: 90%;
+  padding: 2%;
+  border-radius: 1rem;
+  box-shadow: 0.5px 1px 2px var(--shadow-card-color);
+  border: 1px solid var(--border-card-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.5%;
+}
+
+.tite_card_info_produto {
+  padding: 0%;
+  margin: 0%;
+  color: var(--terciary-color);
+  font-size: 1.6rem;
+}
+
+.line_card_info_produto {
+  padding: 0%;
+  margin: 0% 0% 1% 0%;
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  width: 13%;
+  font-size: 0.1rem;
+  border-radius: 1rem;
+}
+
+.text_card_info_produto {
+  padding: 0%;
+  margin: 0%;
+  text-align: justify;
+  font-size: 1rem;
+  color: var(--terciary-color);
+}
+
+/*-------------- double card -----------*/
+
+.container_double_card_info_produto{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.4%;
+}
+
+.card_double_info_produto{
+  width: 49%;
+}
+
+.line_card_doube_info_produto{
+  width: 17%;
+  margin: 0% 0% 2% 0%;
+}
+
+/*-------------- Dados Quantiitativos -----------*/
+
+.quant_card_info_produto {
+  background-color: var(--quaternary-color);
+  width: 90%;
+  padding: 2%;
+  border-radius: 1rem;
+  box-shadow: 0.5px 1px 2px var(--shadow-card-color);
+  border: 1px solid var(--border-card-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1.5%;
+}
+
+.left_quant_card_info_produto {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line_quant_card_info_produto{
+  width: 25%;
+  margin: 0% 0% 2% 0%;
+}
+
+.right_quant_card_info_produto {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grafico_quant_card_info_produto {
+  width: 90%;
+}
+
+/*-------------- Testemunho -----------*/
+
+
+
+
